@@ -72,6 +72,7 @@ License: copyright commercial
   --theme-color9: #EDC701;
   --theme-color10: #122F2A;
   --theme-color11: #595B62;
+  --corporate-logo-bg: #455761;
   --bg-theme-color1: var(--theme-color1);
   --bg-theme-color2: var(--theme-color2);
   --text-color-bg-theme-color1:var(--theme-color-dark);
@@ -3264,8 +3265,10 @@ Main Header
 .logo a {
   display: block;
 }
-.logo a img {
-  width: 100%;
+.main-header .logo a img {
+  width: auto;
+  max-height: 40px;
+  border-radius: 12px;
 }
 
 .header-span {
@@ -3382,10 +3385,13 @@ Main Header
 }
 .main-header .logo {
   position: relative;
-  display: block;
+  display: inline-flex;
+  align-items: center;
 }
 .main-header .logo img {
-  max-width: 100%;
+  max-width: none;
+  width: auto;
+  max-height: 40px;
   height: auto;
 }
 .main-header .main-box {
@@ -3892,7 +3898,7 @@ Main Header
   cursor: pointer;
 }
 .header-style-one .main-box, .header-style-seven .main-box, .header-style-six .main-box, .header-style-five .main-box, .header-style-four .main-box, .header-style-three .main-box, .header-style-two .main-box {
-  background-color: var(--theme-color-light);
+  background-color: var(--corporate-logo-bg);
   padding: 20px;
   max-width: 1450px;
   margin: 0 auto;
@@ -4045,7 +4051,7 @@ Main Header
   margin-right: 0;
 }
 .header-style-one .main-menu .navigation > li > a, .header-style-seven .main-menu .navigation > li > a, .header-style-six .main-menu .navigation > li > a, .header-style-five .main-menu .navigation > li > a, .header-style-four .main-menu .navigation > li > a, .header-style-three .main-menu .navigation > li > a, .header-style-two .main-menu .navigation > li > a {
-  color: var(--headings-color);
+  color: var(--theme-color-white);
   text-transform: capitalize;
   position: relative;
   font-weight: 500;
@@ -4077,7 +4083,7 @@ Main Header
   width: auto;
   height: unset;
   font-size: 10px;
-  color: var(--headings-color);
+  color: var(--theme-color-white);
 }
 .header-style-one .main-menu .navigation li.dropdown ul .dropdown-btn, .header-style-seven .main-menu .navigation li.dropdown ul .dropdown-btn, .header-style-six .main-menu .navigation li.dropdown ul .dropdown-btn, .header-style-five .main-menu .navigation li.dropdown ul .dropdown-btn, .header-style-four .main-menu .navigation li.dropdown ul .dropdown-btn, .header-style-three .main-menu .navigation li.dropdown ul .dropdown-btn, .header-style-two .main-menu .navigation li.dropdown ul .dropdown-btn {
   display: none;
@@ -4094,7 +4100,7 @@ Main Header
   color: #000;
 }
 .header-style-one .sticky-header, .header-style-seven .sticky-header, .header-style-six .sticky-header, .header-style-five .sticky-header, .header-style-four .sticky-header, .header-style-three .sticky-header, .header-style-two .sticky-header {
-  background-color: var(--theme-color-v2);
+  background-color: var(--corporate-logo-bg);
 }
 @media (max-width: 575.98px) {
   .header-style-one .sticky-header .auto-container, .header-style-seven .sticky-header .auto-container, .header-style-six .sticky-header .auto-container, .header-style-five .sticky-header .auto-container, .header-style-four .sticky-header .auto-container, .header-style-three .sticky-header .auto-container, .header-style-two .sticky-header .auto-container {
@@ -4111,7 +4117,7 @@ Main Header
   }
 }
 .header-style-one .sticky-header .main-menu .navigation > li > a, .header-style-seven .sticky-header .main-menu .navigation > li > a, .header-style-six .sticky-header .main-menu .navigation > li > a, .header-style-five .sticky-header .main-menu .navigation > li > a, .header-style-four .sticky-header .main-menu .navigation > li > a, .header-style-three .sticky-header .main-menu .navigation > li > a, .header-style-two .sticky-header .main-menu .navigation > li > a {
-  color: var(--theme-color-black);
+  color: var(--theme-color-white);
 }
 .header-style-one .sticky-header .main-menu .navigation > li.current > a, .header-style-seven .sticky-header .main-menu .navigation > li.current > a, .header-style-six .sticky-header .main-menu .navigation > li.current > a, .header-style-five .sticky-header .main-menu .navigation > li.current > a, .header-style-four .sticky-header .main-menu .navigation > li.current > a, .header-style-three .sticky-header .main-menu .navigation > li.current > a, .header-style-two .sticky-header .main-menu .navigation > li.current > a,
 .header-style-one .sticky-header .main-menu .navigation > li:hover > a,
@@ -4121,7 +4127,7 @@ Main Header
 .header-style-four .sticky-header .main-menu .navigation > li:hover > a,
 .header-style-three .sticky-header .main-menu .navigation > li:hover > a,
 .header-style-two .sticky-header .main-menu .navigation > li:hover > a {
-  color: var(--headings-color);
+  color: var(--theme-color1);
 }
 .header-style-one .sticky-header .main-menu .navigation > li, .header-style-seven .sticky-header .main-menu .navigation > li, .header-style-six .sticky-header .main-menu .navigation > li, .header-style-five .sticky-header .main-menu .navigation > li, .header-style-four .sticky-header .main-menu .navigation > li, .header-style-three .sticky-header .main-menu .navigation > li, .header-style-two .sticky-header .main-menu .navigation > li {
   padding: 0;
@@ -4134,7 +4140,7 @@ Main Header
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #fff;
+  background-color: var(--corporate-logo-bg);
 }
 .header-style-one .sticky-header .main-menu, .header-style-seven .sticky-header .main-menu, .header-style-six .sticky-header .main-menu, .header-style-five .sticky-header .main-menu, .header-style-four .sticky-header .main-menu, .header-style-three .sticky-header .main-menu, .header-style-two .sticky-header .main-menu {
   height: 100%;
@@ -14276,12 +14282,15 @@ CONTACT Details
   position: relative;
   z-index: 1;
 }
-.team-block-three .inner-box .image-box .image {
+..team-block-three .inner-box .image-box .image {
   overflow: hidden;
   border-radius: 12px;
+  min-height: 320px;
 }
 .team-block-three .inner-box .image-box .image img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }

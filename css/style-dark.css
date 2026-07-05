@@ -4,6 +4,7 @@
   --dark-color2-rgb: 15, 39, 39;
   --dark-color3: #061419;
   --dark-color4: #1A4137;
+  --corporate-logo-bg: #455761;
 }
 
 .bg-dark-1 {
@@ -662,4 +663,18 @@ strong,
 
 .service-block-four .acc .acc-item.active {
   border-radius: 0;
+}
+
+/* Match dark header/nav backgrounds to the corporate logo color */
+.main-header.header-style-one .header-top,
+.main-header.header-style-two .header-top,
+.main-header.header-style-five .header-top,
+.main-header.header-style-one .main-box,
+.main-header.header-style-one .sticky-header.fixed-header,
+.main-header.header-style-two .main-box,
+.main-header.header-style-two .sticky-header.fixed-header,
+.main-header.header-style-five .main-box,
+.main-header.header-style-five .sticky-header.fixed-header,
+.sticky-header {
+  background-color: var(--corporate-logo-bg) !important;
 }

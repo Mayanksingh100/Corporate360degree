@@ -293,6 +293,37 @@ var THEMEMASCOT = {};
 			});
 		}
 
+		// team-carousel
+		if ($(".team-slider").length) {
+			var swiper = new Swiper(".team-slider", {
+				spaceBetween: 30,
+				speed: 1000,
+				loop: true,
+				autoplay: {
+					delay: 3500,
+					disableOnInteraction: false,
+				},
+				pagination: {
+					el: ".team-pagination",
+					clickable: true,
+				},
+				breakpoints: {
+					320: {
+						slidesPerView: 1,
+					},
+					768: {
+						slidesPerView: 2,
+					},
+					1200: {
+						slidesPerView: 3,
+					},
+					1600: {
+						slidesPerView: 4,
+					},
+				},
+			});
+		}
+
 		// service-carousel Two
 		var swiper = new Swiper(".service-two-slider2", {
 			loop: true,

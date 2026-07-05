@@ -666,7 +666,7 @@
 const galleryImages = document.querySelectorAll(".gallery-item img");
 const popup = document.getElementById("imagePopup");
 const popupImage = document.getElementById("popupImage");
-const closeBtn = document.querySelector(".close-btn");
+const closeBtn = popup.querySelector(".close-btn");
 const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
 let currentImageIndex = 0;
@@ -802,7 +802,371 @@ popup.addEventListener("click", (e) => {
     </section>
     <!-- Funfact area end here -->
 
+    <!-- Team area start here -->
+    <section class="team-section-three home6-style pb-120 pt-120">
+      <div class="img floating-img bounce-y">
+        <img src="images/icon/globe.png" alt="">
+      </div>
+      <div class="team-three-text">
+        <img class="wow slideInLeft" data-wow-delay="1s" data-wow-duration="1500ms" src="images/shape/team-three-text.png" alt="Image">
+      </div>
+      <div class="container">
+        <div class="sec-title mb-50 text-center">
+          <h6 class="sub-title style-red mx-auto wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">team member</h6>
+          <h2 class="title wow splt-txt" data-splitting>Meet Our Expert Team <br> Members</h2>
+        </div>
+        <div class="team-slider swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide wow bounceInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+              <div class="team-block-three">
+                <div class="inner-box">
+                  <div class="image-box">
+                    <figure class="image">
+                      <img src="images/team/team-three-image1.jpg" alt="Image">
+                    </figure>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="#0"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#0"><i class="fa-sharp fa-solid fa-x"></i></a></li>
+                        <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="content-box">
+                    <h4 class="title"><a href="page-team-details.html">Ronald Richards</a></h4>
+                    <p class="sub-title">CEO & Founder</p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div class="swiper-slide wow bounceInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+              <div class="team-block-three">
+                <div class="inner-box">
+                  <div class="image-box">
+                    <figure class="image">
+                      <img src="images/team/team-three-image2.jpg" alt="Image">
+                    </figure>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="#0"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#0"><i class="fa-sharp fa-solid fa-x"></i></a></li>
+                        <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="content-box">
+                    <h4 class="title"><a href="page-team-details.html">Marvin McKinney</a></h4>
+                    <p class="sub-title">Senior Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide wow bounceInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+              <div class="team-block-three">
+                <div class="inner-box">
+                  <div class="image-box">
+                    <figure class="image">
+                      <img src="images/team/team-three-image3.jpg" alt="Image">
+                    </figure>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="#0"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#0"><i class="fa-sharp fa-solid fa-x"></i></a></li>
+                        <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="content-box">
+                    <h4 class="title"><a href="page-team-details.html">Kathryn Murphy</a></h4>
+                    <p class="sub-title">Web Designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide wow bounceInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+              <div class="team-block-three">
+                <div class="inner-box">
+                  <div class="image-box">
+                    <figure class="image">
+                      <img src="images/team/team-three-image4.jpg" alt="Image">
+                    </figure>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="#0"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#0"><i class="fa-sharp fa-solid fa-x"></i></a></li>
+                        <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="content-box">
+                    <h4 class="title"><a href="page-team-details.html">Dianne Russell</a></h4>
+                    <p class="sub-title">Junior Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide wow bounceInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
+              <div class="team-block-three">
+                <div class="inner-box">
+                  <div class="image-box">
+                    <figure class="image">
+                      <img src="images/team/team-image1.jpg" alt="Image">
+                    </figure>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="#0"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#0"><i class="fa-sharp fa-solid fa-x"></i></a></li>
+                        <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="content-box">
+                    <h4 class="title"><a href="page-team-details.html">Jenny Wilson</a></h4>
+                    <p class="sub-title">Marketing Head</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide wow bounceInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+              <div class="team-block-three">
+                <div class="inner-box">
+                  <div class="image-box">
+                    <figure class="image">
+                      <img src="images/team/team-image2.jpg" alt="Image">
+                    </figure>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="#0"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#0"><i class="fa-sharp fa-solid fa-x"></i></a></li>
+                        <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="content-box">
+                    <h4 class="title"><a href="page-team-details.html">Cody Fisher</a></h4>
+                    <p class="sub-title">Project Lead</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide wow bounceInUp" data-wow-delay="700ms" data-wow-duration="1500ms">
+              <div class="team-block-three">
+                <div class="inner-box">
+                  <div class="image-box">
+                    <figure class="image">
+                      <img src="images/team/team-image3.jpg" alt="Image">
+                    </figure>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="#0"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#0"><i class="fa-sharp fa-solid fa-x"></i></a></li>
+                        <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="content-box">
+                    <h4 class="title"><a href="page-team-details.html">Theresa Webb</a></h4>
+                    <p class="sub-title">UI/UX Designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination team-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Team area end here -->
+
+    <!-- Testimonial area three start here -->
+    <section class="testimonial-section-six">
+      <div class="outer-box">
+        <div class="shape-image">
+          <img src="images/shape/testimonial-shape-six.png" alt="">
+        </div>
+        <div class="row g-5">
+          <div class="col-xl-6 image-column">
+            <div class="inner-column">
+              <figure class="image">
+                <img src="images/testimonial/testimonial-image5.jpg" alt="Image">
+              </figure>
+            </div>
+          </div>
+          <div class="col-xl-6 content-column">
+            <div class="inner-column">
+              <div class="content-box">
+                <div class="sec-title mb-30">
+                  <h6 class="sub-title wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Testimonial</h6>
+                  <div class="flex-content">
+                    <h2 class="title wow splt-txt" data-splitting>What our customers <br>say <span class="font-weight-300">about us</span></h2>
+                    <div class="btn-wrp">
+                      <button class="testimonial-prev-six"><i class="fa-regular fa-angle-left"></i></button>
+                      <button class="testimonial-next-six"><i class="fa-regular fa-angle-right"></i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper testimonial-slider-six">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="testimonial-block-six">
+                        <div class="quort"><i class=""></i></div>
+                        <p class="text">You guys were a really big help in helping us come to understand our problem with the finance.   I felt you were very professional and you took good care of us. 
+                           You brought us to the place of resolving an overwhelming amount of just not knowing where we stood with monies owed.  Now we are free and know we can move on.</p>
+                        <div class="info">
+                          <h4 class="title">Ranpreet singh Walia<span></span></h4>
+                          <img src="images/icon/testimonial-three-icon.png" alt="Icon">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="testimonial-block-six">
+                        <p class="text">I didn’t realize that I had additional options in dealing with my tax situation until I talked with experts of Corporate 360 degree......</p>
+                        <div class="info">
+                          <h4 class="title">Ashish dhingra<span>Web Designer</span></h4>
+                          <img src="images/icon/testimonial-three-icon.png" alt="Icon">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="testimonial-block-six">
+                        <p class="text">Deeply appreciated the expertise that your company offered during our visit.......</p>
+                        <div class="info">
+                          <h4 class="title">Mahesh Puhani</h4>
+                          <img src="images/icon/testimonial-three-icon.png" alt="Icon">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="testimonial-block-six">
+                        <p class="text">I have experienced very professional and knowledgeable approach....</p>
+                        <div class="info">
+                          <h4 class="title">Rajesh Dhanrajani</h4>
+                          <img src="images/icon/testimonial-three-icon.png" alt="Icon">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="testimonial-block-six">
+                        <p class="text">Team of Corporate360degree is caring, knowledgeable, empathetic, sympathetic. Those are the first words that come to mind. Team’s absolute politeness and dedicates so much of their time to all clients, it’s rare to find someone who gives up so much of his time, because of a deep commitment, treating clients from all qualified persons without regard to religion, race, sex, color, familiar status. Thanks again for your professionalism.</p>
+                        <div class="info">
+                          <h4 class="title">Sunil Kumar Jain</h4>
+                          <img src="images/icon/testimonial-three-icon.png" alt="Icon">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="testimonial-block-six">
+                        <p class="text">You guys are wonderful.  You keep me updated on tax changes and how to prepare myself for next year.  Thanks!</p>
+                        <div class="info">
+                          <h4 class="title">Arun Kumar Sharma</h4>
+                          <img src="images/icon/testimonial-three-icon.png" alt="Icon">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="testimonial-block-six">
+                        <p class="text">Your team was great! They gave it to me straight and didn’t make me feel like they were judging at all. They seemed down to earth and their experience instills confidence in your program! Thanks for your time, the whole team!</p>
+                        <div class="info">
+                          <h4 class="title">Rahul Verma</h4>
+                          <img src="images/icon/testimonial-three-icon.png" alt="Icon">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="testimonial-block-six">
+                        <p class="text">Very satisfied with the resolution of my tax problem.</p>
+                        <div class="info">
+                          <h4 class="title">Capt. Sanjay Mishra</h4>
+                          <img src="images/icon/testimonial-three-icon.png" alt="Icon">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="testimonial-block-six">
+                        <p class="text">Your employee to whom I meet was so kind and assured, really knew what was expected of us and gave us peace about a stressful situation to us. He did what was best for us and could have used this situation to gain for himself and put us first. We really appreciate that and will call him in the future.</p>
+                        <div class="info">
+                          <h4 class="title">Dr. Manoj Dua</h4>
+                          <img src="images/icon/testimonial-three-icon.png" alt="Icon">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="testimonial-block-six">
+                        <p class="text">I appreciate all your hard work in resolving my tax dilemma.  By helping others – the work that you do is truly noble.</p>
+                        <div class="info">
+                          <h4 class="title">Sashi Prakash Jha</h4>
+                          <img src="images/icon/testimonial-three-icon.png" alt="Icon">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="testimonial-block-six">
+                        <p class="text">THANK you for all your hard work.  The company did a wonderful job and I am extremely happy and satisfied with the results.  I can not say enough thank you.</p>
+                        <div class="info">
+                          <h4 class="title">Dinesh Gaikwad</h4>
+                          <img src="images/icon/testimonial-three-icon.png" alt="Icon">
+                        </div>
+                      </div>
+                    </div>
+                     <div class="swiper-slide">
+                      <div class="testimonial-block-six">
+                        <p class="text">Good quality work. I went with your company. I would recommend you to my family and friends. A special thanks to your whole team..</p>
+                        <div class="info">
+                          <h4 class="title">Shibu james</h4>
+                          <img src="images/icon/testimonial-three-icon.png" alt="Icon">
+                        </div>
+                      </div>
+                    </div>
+                     <div class="swiper-slide">
+                      <div class="testimonial-block-six">
+                        <p class="text">Associates were professional, courteous, knowledgeable and were able to keep me at ease and optimistic of my situation. Thank you!</p>
+                        <div class="info">
+                          <h4 class="title">Akhil Malhotra</h4>
+                          <img src="images/icon/testimonial-three-icon.png" alt="Icon">
+                        </div>
+                      </div>
+                    </div>
+                    
+
+                  </div>
+                </div>
+              </div>            
+            </div>            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial area three end here -->
+
+   <!-- Consult area start here -->
+    <section class="consult-section pt-120 pb-120" data-background="images/bg/consult-bg.jpg">
+      <div class="sec-shape">
+        <img class="animation__rotate" src="images/shape/consult-shape.png" alt="Image">
+      </div>
+      <div class="container">
+        <div class="sec-title center consult-cta">
+          <h2 class="title text-white wow splt-txt" data-splitting>The Future of Corporate and Business Solutions</h2>
+          <p class="text text-white mt-20">We believe in achieving maximum client satisfaction and excellence by serving them with the best</p>
+          <div class="btn-wrp mt-30">
+            <a class="btn-one-rounded wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms" href="page-contact.html">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Consult area end here -->
     <!-- Choose area start here -->
     <section class="choose-section pt-120 pb-120">
       <div class="container">
